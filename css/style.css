@@ -10,6 +10,8 @@ Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/license
 
 /* Reset
 ---------------------------------*/
+
+
 ul {
     list-style: none;
 }
@@ -1236,7 +1238,7 @@ border: 1px solid #22682a;
 
 /* Footer
 ---------------------------------*/
-
+/* 
 .footer_wrapper {
     background: #232323;
 }
@@ -1264,7 +1266,51 @@ border: 1px solid #22682a;
 
 .footer_bottom span a:hover {
     color: #fff;
+} */
+footer{
+    background-color: #121212;
+    padding: 12em;
+    height: 450px;
+    
 }
+.footer-heading{
+    text-transform:capitalize;
+    margin: 2rem auto 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+
+}
+footer .menu{
+    margin: 4rem auto 1rem;
+
+}
+footer .menu a {
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+footer .menu a:hover{
+  color: #22682a;
+}
+
+footer section{
+    margin-top: 4rem;
+}
+footer section a{
+    margin: 5px;
+}
+footer .btn-rounded {
+border-radius: 50%;
+font-size: 20px;
+color: #22682a;
+border-color: #22682a;
+ } 
+ .Copyright{
+    margin-top: 5rem;
+ }
 
 /* Animation Timers
 ---------------------------------*/
